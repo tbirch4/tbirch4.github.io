@@ -30,6 +30,8 @@ body {
 }
 
 .social-icons {
+	position: absolute;
+	bottom: 0px;
 	margin: 32px 0;
 }
 .social-icons * {
