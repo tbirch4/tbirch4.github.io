@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
-	font-family: 'Roboto mono', monospace;
-}
+	font-family: 'Open Sans', sans-serif;
+}	
 
 .content {
 	margin: auto;
@@ -25,4 +27,15 @@ body {
 #head-img {
 	max-height:150px;
 	height:33vw;
+}
+
+.social-icons {
+	margin: 32px 0;
+}
+.social-icons * {
+	height: 25px;
+}
+
+.social-icons * + * {
+	padding-left: 8px
 }
