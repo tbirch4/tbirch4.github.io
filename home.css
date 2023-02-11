@@ -10,34 +10,28 @@ body {
 	padding: 48px 0;
 }
 
-.emptyList {
-	list-style-type:none;
-	margin:0;
-	padding:0;
-}
-
-.emptyList li {
-	padding:2px 0;
-}
-
-.linkBlock {
-	margin:12px 0;
-}
-
 #head-img {
 	max-height:150px;
 	height:33vw;
 }
 
 .social-icons {
-	position: absolute;
+	position: fixed;
 	bottom: 0px;
-	margin: 32px 0;
+	width: 100%;
+	background-color: white;
 }
-.social-icons * {
+
+.social-icons-content {
+	max-width: 500px;
+	margin: 12px auto;
+
+}
+
+.social-icons-content * {
 	height: 25px;
 }
 
-.social-icons * + * {
-	padding-left: 8px
+.social-icons-content * + * {
+	padding-left: 8px;
 }
