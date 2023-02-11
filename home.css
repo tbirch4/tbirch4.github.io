@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -8,6 +8,7 @@ body {
 	margin: auto;
 	max-width: 500px;
 	padding: 48px 0;
+	font-size: 16px;
 }
 
 #head-img {
@@ -15,23 +16,8 @@ body {
 	height:33vw;
 }
 
-.social-icons {
-	position: fixed;
-	bottom: 0px;
-	width: 100%;
-	background-color: white;
-}
-
-.social-icons-content {
-	max-width: 500px;
-	margin: 12px auto;
-
-}
-
-.social-icons-content * {
-	height: 25px;
-}
-
-.social-icons-content * + * {
-	padding-left: 8px;
+.link-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 24px 0 0 ;
 }
